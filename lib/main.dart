@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -49,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _moinsCGE() {
+  void _moinsCGE()  {
     setState(() {
       if (_noteCGE > 0) {
         _noteCGE--;
